@@ -6,7 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import AboutMe from '../components/AboutMe/AboutMe';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   return (
     <Layout>

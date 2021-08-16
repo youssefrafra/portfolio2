@@ -41,7 +41,7 @@ export const projects = [
   {
     title: "Unichat",
     description:
-      `Une web app pour créer des list de films avec des
+      `Une web app pour créer des listes de films avec des
       commentaires et des reviews en utilisant HTML, CSS, JS, Ruby on
       Rails et Heroku.`,
     image: "/images/4.jpg",
