@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './EducationStyles';
 
 const data = [
   { date: 2013, text: 'CPGE MPSI Condorcet à Lens'},
@@ -10,9 +10,9 @@ const data = [
   { date: 2021, text: 'Le Wagon Bootcamp à Lille', }
 ];
 
-const Acomplishments = () => (
+const Education = () => (
   <Section>
-    <SectionTitle>Education</SectionTitle>
+    <SectionTitle>Éducation</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -25,4 +25,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Education;
