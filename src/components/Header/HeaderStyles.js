@@ -1,4 +1,3 @@
-import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -31,13 +30,14 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 6;
   }
 `;
 export const LinkListItem = styled.li`
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -60,10 +60,11 @@ export const NavLink = styled.a`
     color: #fff;
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.1)
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
-    font-size: 1.7rem !important;
+    font-size: 1.2rem;
   }
 `;
 

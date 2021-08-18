@@ -95,13 +95,8 @@ export const ExternalLinks = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: rgb(34, 193, 195);
-    background: linear-gradient(
-      0deg,
-      rgba(34, 193, 195, 1) 0%,
-      rgba(30, 129, 176, 1) 100%
-    );
-    border-radius: 15px;
+    color: white;
+    transform: scale(1.1)
   }
 `;
 
