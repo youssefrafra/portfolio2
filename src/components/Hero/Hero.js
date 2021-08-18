@@ -1,19 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Bienvenue sur <br />
+          Bienvenue Sur <br />
           Mon Portfolio Personnel
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          Actuellement à la recherche d'un contrat CDI dans les postes suivants:
+          <strong> Dévellopeur Full-Stack</strong>,{" "}
+          <strong> Dévellopeur Front-End</strong>,
+          <strong> Dévellopeur Back-End</strong>.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>

@@ -9,20 +9,10 @@ export const projects = [
       Où j'ai implémenté le backend et les mini-jeux.`
       ,
     image: "/images/1.png",
-    tags: ["postgresql", "Ruby", "Javascript", "Rails", "Heroku"],
+    tags: ["#postgresql", "#Javascript", "#Rails", "#Heroku"],
     source: "https://github.com/youssefrafra/BeforeClass",
     visit: "https://beforeclass.herokuapp.com/",
     id: 0,
-  },
-  {
-    title: "E-Commerce",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.jpg",
-    tags: ["React", "JavaScript","Netlify"],
-    source: "https://github.com/youssefrafra/react-store",
-    visit: "https://github.com/youssefrafra/react-store",
-    id: 1,
   },
   {
     title: "ParkIt",
@@ -33,21 +23,9 @@ export const projects = [
       Heroku.
       `,
     image: "/images/3.png",
-    tags: ["Javascript", "Rails", "Heroku"],
+    tags: ["#Javascript", "#Rails", "#Heroku","#postgresql"],
     source: "https://github.com/youssefrafra/park_it",
     visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      `Une web app pour créer des listes de films avec des
-      commentaires et des reviews en utilisant HTML, CSS, JS, Ruby on
-      Rails et Heroku.`,
-    image: "/images/4.jpg",
-    tags: ["Javascript", "Rails", "Heroku"],
-    source: "https://github.com/youssefrafra/rails-watch-list",
-    visit: "https://my-rails-watchlist.herokuapp.com/",
-    id: 3,
-  },
+    id: 1,
+  }
 ];

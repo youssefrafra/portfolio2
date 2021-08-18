@@ -31,7 +31,9 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
+  .react-sweet-progress-symbol{
+    color: white !important;
+  }
 `;
 
 export default GlobalStyles;

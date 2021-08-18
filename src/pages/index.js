@@ -1,8 +1,8 @@
 import Education from '../components/Education/Education';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
+import BgAnimation from '../components/BackgroundImg/BackgroundImg';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
+import Technologies from '../components/Competences/Competences';
 import AboutMe from '../components/AboutMe/AboutMe';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';

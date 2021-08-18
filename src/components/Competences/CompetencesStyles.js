@@ -131,3 +131,25 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+export const LanguageBox = styled.div`
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // justify-items: center;
+  gap: 24px;
+  margin: 24px 0 40px;
+
+  @media ${props => props.theme.breakpoints.md}{
+    gap: 16px;
+    margin: 20px 0 32px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 24px auto;
+  }
+`

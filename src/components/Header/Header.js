@@ -22,12 +22,12 @@ const Header = () =>  (
       </LinkListItem>
       <LinkListItem>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Compétences</NavLink>
         </Link>
       </LinkListItem>        
       <LinkListItem>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <NavLink>À propos</NavLink>
         </Link>
       </LinkListItem>        
       <LinkListItem>
@@ -37,13 +37,13 @@ const Header = () =>  (
       </LinkListItem>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/youssefrafra">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.linkedin.com/in/youssefrafrafi/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.codewars.com/users/youssefrafra">
           <AiFillCode size="3rem"/>
         </SocialIcons>
       </Div3>
