@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const BackgroundImgContainer = styled.div`
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.30),
@@ -16,8 +16,12 @@ export const BackgroundImgContainer = styled.div`
   border-radius: 500px;
   width: 400px;
   height: 400px;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.sm } {
     width: 80px;
     height: 80px;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 120px;
+    height: 120px;
   }
 `;
