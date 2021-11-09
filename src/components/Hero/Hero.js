@@ -16,13 +16,11 @@ const Hero = (props) => (
           Mon Portfolio Personnel
         </SectionTitle>
         <SectionText>
-          Actuellement à la recherche d'un <strong>stage</strong> ou d'une <strong>alternance</strong> 
-          dans les postes suivants:
+          Actuellement à la recherche d'un <strong>stage</strong> ou d'une <strong>alternance</strong> dans les postes suivants:
           <strong> Data Scientist</strong>,{" "}
           <strong> Data Analyst</strong>,
           <strong> Data Engineer</strong>.
         </SectionText>
-        {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
     </Section>
   </>
