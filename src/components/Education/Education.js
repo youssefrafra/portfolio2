@@ -7,7 +7,8 @@ const data = [
   { date: 2013, text: 'CPGE MPSI Condorcet à Lens'},
   { date: 2014, text: 'CPGE MP Robespierre à Arras', },
   { date: 2020, text: 'Licence de Maths à Lille 1', },
-  { date: 2021, text: 'Le Wagon Bootcamp à Lille', }
+  { date: 2021, text: 'Le Wagon Bootcamp à Lille', },
+  { date: 2021, text: 'IA School de Paris, parcours Data Scientist'}
 ];
 
 const Education = () => (

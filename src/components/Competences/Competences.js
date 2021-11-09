@@ -25,6 +25,8 @@ const Node = 60;
 const Html = 90;
 const Css = 80;
 const SQL = 80;
+const Python = 75;
+const MongoDB = 25;
 
 const Competences = () => (
   <Section id="tech">
@@ -73,6 +75,19 @@ const Competences = () => (
         JS: {
           symbol: "JS",
           color: "#fbc630",
+        },
+      }}
+    />
+    <Progress
+      type="circle"
+      width={90}
+      strokeWidth={2}
+      percent={Python}
+      status="Python"
+      theme={{
+        Python: {
+          symbol: "Python",
+          color: "#49f2f2",
         },
       }}
     />
@@ -138,6 +153,19 @@ const Competences = () => (
         SQL: {
           symbol: "SQL",
           color: "#8192a1",
+        },
+      }}
+    />
+    <Progress
+      type="circle"
+      width={90}
+      strokeWidth={2}
+      percent={MongoDB}
+      status="MongoDB"
+      theme={{
+        MongoDB: {
+          symbol: "MongoDB",
+          color: "#23d400",
         },
       }}
     />

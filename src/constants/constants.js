@@ -1,4 +1,4 @@
-export const projects = [
+export const projets = [
   {
     title: "BeforeClass",
     description:
@@ -25,7 +25,7 @@ export const projects = [
     image: "/images/3.png",
     tags: ["#Javascript", "#Rails", "#Heroku","#postgresql"],
     source: "https://github.com/youssefrafra/park_it",
-    visit: "https://google.com",
+    visit: "https://parkit-youssefrafra.herokuapp.com/",
     id: 1,
   }
 ];
