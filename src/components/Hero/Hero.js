@@ -13,10 +13,10 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Bienvenue Sur <br />
-          Mon Portfolio Personnel
+          Mon Portfolio
         </SectionTitle>
         <SectionText>
-          Actuellement à la recherche d'un <strong>stage</strong> ou d'une <strong>alternance</strong> dans les postes suivants:
+          Actuellement à la recherche d'un <strong>stage/stage alterné</strong> ou d'une <strong>alternance</strong> dans les postes suivants:
           <strong> Data Scientist</strong>,{" "}
           <strong> Data Analyst</strong>,
           <strong> Data Engineer</strong>.

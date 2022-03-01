@@ -14,18 +14,18 @@ export const projets = [
     visit: "https://beforeclass.herokuapp.com/",
     id: 0,
   },
-  {
-    title: "ParkIt",
-    description:
-      `Dans un groupe de 3, et pendant une semaine on a lancé
-      une web app pour louer des places de parking de la même façon
-      que Airbnb en utilisant Figma, HTML, CSS, JS, Ruby on Rails et
-      Heroku.
-      `,
-    image: "/images/3.png",
-    tags: ["#Javascript", "#Rails", "#Heroku","#postgresql"],
-    source: "https://github.com/youssefrafra/park_it",
-    visit: "https://parkit-youssefrafra.herokuapp.com/",
-    id: 1,
-  }
+  // {
+  //   title: "ParkIt",
+  //   description:
+  //     `Dans un groupe de 3, et pendant une semaine on a lancé
+  //     une web app pour louer des places de parking de la même façon
+  //     que Airbnb en utilisant Figma, HTML, CSS, JS, Ruby on Rails et
+  //     Heroku.
+  //     `,
+  //   image: "/images/3.png",
+  //   tags: ["#Javascript", "#Rails", "#Heroku","#postgresql"],
+  //   source: "https://github.com/youssefrafra/park_it",
+  //   visit: "https://parkit-youssefrafra.herokuapp.com/",
+  //   id: 1,
+  // }
 ];

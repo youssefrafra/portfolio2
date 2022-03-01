@@ -59,24 +59,24 @@ export const SocialIconsContainer = styled.div`
   }
 `;
 
-export const CompanyContainer = styled.div`
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  margin-right: auto;
+// export const CompanyContainer = styled.div`
+//   display: flex;
+//   align-items: baseline;
+//   flex-wrap: wrap;
+//   margin-right: auto;
 
-  @media ${(props) => props.theme.breakpoints.md} {
-    flex-direction: column;
-    align-items: baseline;
-  }
+//   @media ${(props) => props.theme.breakpoints.md} {
+//     flex-direction: column;
+//     align-items: baseline;
+//   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 32px;
-    align-items: center;
-  }
-`;
+//   @media ${(props) => props.theme.breakpoints.sm} {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0 0 32px;
+//     align-items: center;
+//   }
+// `;
 
 export const Slogan = styled.p`
   color: rgba(255, 255, 255, 0.5);

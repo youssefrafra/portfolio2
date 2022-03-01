@@ -17,16 +17,17 @@ import {
 } from "./CompetencesStyles";
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
-const Reactjs = 60;
-const Js = 85;
-const Rails = 80;
-const Ruby = 90;
-const Node = 60;
-const Html = 90;
-const Css = 80;
-const SQL = 80;
-const Python = 75;
-const MongoDB = 25;
+const percent = {"CPP": 30, 
+                "Reactjs": 60,
+                "Js": 85, 
+                "Rails": 80, 
+                "Ruby": 85, 
+                "Node": 60, 
+                "Html": 85,
+                "Css": 80,
+                "SQL": 60,
+                "Python": 75,
+                "MongoDB": 40}
 
 const Competences = () => (
   <Section id="tech">
@@ -42,7 +43,7 @@ const Competences = () => (
       type="circle"
       style={{color: 'white',}}
       width={90}
-      percent={Reactjs}
+      percent={percent.Reactjs}
       strokeWidth={2}
       status="Reactjs"
       theme={{
@@ -56,7 +57,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Rails}
+      percent={percent.Rails}
       status="Rails"
       theme={{
         Rails: {
@@ -69,7 +70,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Js}
+      percent={percent.Js}
       status="JS"
       theme={{
         JS: {
@@ -82,7 +83,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Python}
+      percent={percent.Python}
       status="Python"
       theme={{
         Python: {
@@ -95,7 +96,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Ruby}
+      percent={percent.Ruby}
       status="Ruby"
       theme={{
         Ruby: {
@@ -108,7 +109,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Node}
+      percent={percent.Node}
       status="Node"
       theme={{
         Node: {
@@ -121,7 +122,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Html}
+      percent={percent.Html}
       status="Html"
       theme={{
         Html: {
@@ -134,7 +135,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={Css}
+      percent={percent.Css}
       status="Css"
       theme={{
         Css: {
@@ -147,7 +148,7 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={SQL}
+      percent={percent.SQL}
       status="SQL"
       theme={{
         SQL: {
@@ -160,12 +161,25 @@ const Competences = () => (
       type="circle"
       width={90}
       strokeWidth={2}
-      percent={MongoDB}
+      percent={percent.MongoDB}
       status="MongoDB"
       theme={{
         MongoDB: {
           symbol: "MongoDB",
           color: "#23d400",
+        },
+      }}
+    />
+    <Progress
+      type="circle"
+      width={90}
+      strokeWidth={2}
+      percent={percent.CPP}
+      status="CPP"
+      theme={{
+        CPP: {
+          symbol: "C++",
+          color: "#cd00d4",
         },
       }}
     />
