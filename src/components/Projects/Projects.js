@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  ImgContainer
 } from "./ProjectsStyles";
 import {
   Section,
@@ -28,9 +29,9 @@ const Projects = () => (
       {projets.map((project, index) => {
         return (
           <BlogCard key={index}>
-            <div style={{position: "relative", height: "200px", width: "100%"}}>
+            <ImgContainer>
               <Img src={project.image} />
-            </div>
+            </ImgContainer>
             <TitleContent>
               <HeaderThree title={project.title ? project.title : "Image"}>
                 {project.title}

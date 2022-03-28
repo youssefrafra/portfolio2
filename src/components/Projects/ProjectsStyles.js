@@ -1,16 +1,21 @@
 import styled from "styled-components";
 
+export const ImgContainer = styled.div`
+  position: relative;
+  height: 200px;
+  width: 100%;
+`;
 export const Img = styled.img`
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   overflow: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 `;
 
