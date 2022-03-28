@@ -1,17 +1,27 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: 50%;
+  }
 `;
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: 3fr 3fr;
+  grid-gap: 50px;
   padding: 3rem;
   place-items: center;
+  justify-content: space-between;
+  align-items: stretch;
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -22,12 +32,16 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 `;
 export const TitleContent = styled.div`
@@ -69,6 +83,7 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  flex-grow: 1;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
   }
@@ -96,7 +111,7 @@ export const ExternalLinks = styled.a`
   transition: 0.5s;
   &:hover {
     color: white;
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 `;
 
@@ -104,6 +119,10 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
 `;
 export const Tag = styled.li`
   color: #d8bfbf;

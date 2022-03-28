@@ -1,34 +1,58 @@
-import React from 'react';
+import React from "react";
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projets } from '../../constants/constants';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+} from "./ProjectsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { projets } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projets</SectionTitle>
+    <SectionTitle main>Projets Personnels</SectionTitle>
     <GridContainer>
-      {projets.map((p, i) => {
+      {projets.map((project, index) => {
         return (
-          <BlogCard key={i}>
-          <Img src={p.image} />
+          <BlogCard key={index}>
+            <div style={{position: "relative", height: "200px", width: "100%"}}>
+              <Img src={project.image} />
+            </div>
             <TitleContent>
-              <HeaderThree title={p.title ? 1 : 0}>{p.title}</HeaderThree>
+              <HeaderThree title={project.title ? project.title : "Image"}>
+                {project.title}
+              </HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
+            <CardInfo className="card-info">{project.description}</CardInfo>
             <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
+                {project.tags.map((tag, index) => {
+                  return <Tag key={index}>{tag}</Tag>;
                 })}
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Voir</ExternalLinks>
-              <ExternalLinks href={p.source}>Code Source</ExternalLinks>
+              {project.visit && (
+                <ExternalLinks href={project.visit}>Voir</ExternalLinks>
+              )}
+              {project.source && (
+                <ExternalLinks href={project.source}>Code Source</ExternalLinks>
+              )}
             </UtilityList>
           </BlogCard>
         );

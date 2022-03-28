@@ -7,6 +7,8 @@ import AboutMe from '../components/AboutMe/AboutMe';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollButton from "../components/GoToTop/scrollToTop"
+
 const Home = () => {
   return (
     <Layout>
@@ -18,6 +20,7 @@ const Home = () => {
       <Technologies />
       <AboutMe />
       <Education />
+      <ScrollButton />
     </Layout>
   );
 };

@@ -1,12 +1,11 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend} from "react-icons/di";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-// import ProgressBar from "react-bootstrap/ProgressBar";
 import {
   List,
   ListContainer,
@@ -17,17 +16,7 @@ import {
 } from "./CompetencesStyles";
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
-const percent = {"CPP": 30, 
-                "Reactjs": 60,
-                "Js": 85, 
-                "Rails": 80, 
-                "Ruby": 85, 
-                "Node": 60, 
-                "Html": 85,
-                "Css": 80,
-                "SQL": 60,
-                "Python": 75,
-                "MongoDB": 40}
+import { competences } from "../../constants/constants";
 
 const Competences = () => (
   <Section id="tech">
@@ -39,150 +28,24 @@ const Competences = () => (
       Rails.
     </SectionText>
     <LanguageBox>
-    <Progress
-      type="circle"
-      style={{color: 'white',}}
-      width={90}
-      percent={percent.Reactjs}
-      strokeWidth={2}
-      status="Reactjs"
-      theme={{
-        Reactjs: {
-          symbol: "ReactJs",
-          color: "#49f2f2",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Rails}
-      status="Rails"
-      theme={{
-        Rails: {
-          symbol: "Rails",
-          color: "#ff2b2b",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Js}
-      status="JS"
-      theme={{
-        JS: {
-          symbol: "JS",
-          color: "#fbc630",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Python}
-      status="Python"
-      theme={{
-        Python: {
-          symbol: "Python",
-          color: "#49f2f2",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Ruby}
-      status="Ruby"
-      theme={{
-        Ruby: {
-          symbol: "Ruby",
-          color: "#ff2b2b",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Node}
-      status="Node"
-      theme={{
-        Node: {
-          symbol: "Node",
-          color: "#23d400",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Html}
-      status="Html"
-      theme={{
-        Html: {
-          symbol: "HTML",
-          color: "#0007d4",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.Css}
-      status="Css"
-      theme={{
-        Css: {
-          symbol: "CSS",
-          color: "#cd00d4",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.SQL}
-      status="SQL"
-      theme={{
-        SQL: {
-          symbol: "SQL",
-          color: "#8192a1",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.MongoDB}
-      status="MongoDB"
-      theme={{
-        MongoDB: {
-          symbol: "MongoDB",
-          color: "#23d400",
-        },
-      }}
-    />
-    <Progress
-      type="circle"
-      width={90}
-      strokeWidth={2}
-      percent={percent.CPP}
-      status="CPP"
-      theme={{
-        CPP: {
-          symbol: "C++",
-          color: "#cd00d4",
-        },
-      }}
-    />
+      {competences.map((comp, index) => {
+        return (
+          <Progress
+            key={index}
+            type="circle"
+            width={100}
+            percent={comp.percent}
+            strokeWidth={2}
+            status="theme"
+            theme={{
+              theme: {
+                symbol: comp.name,
+                color: comp.color,
+              },
+            }}
+          />
+        );
+      })}
     </LanguageBox>
     <List>
       <ListItem>

@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillCode, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillCode, AiFillGithub, AiFillLinkedin ,AiFillFilePdf} from 'react-icons/ai';
 import { FaDev } from 'react-icons/fa';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, LinkListItem } from './HeaderStyles';
 
 const Header = () =>  (
@@ -37,14 +36,17 @@ const Header = () =>  (
       </LinkListItem>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/youssefrafra">
+        <SocialIcons href="https://github.com/youssefrafra" target="_blank" title='Github'>
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/youssefrafrafi/">
+        <SocialIcons href="https://www.linkedin.com/in/youssefrafrafi/" target="_blank" title='Linkedin'>
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.codewars.com/users/youssefrafra">
+        <SocialIcons href="https://www.codewars.com/users/youssefrafra" target="_blank" title='Codewars'>
           <AiFillCode size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href="https://drive.google.com/uc?export=download&id=1uKCw5Nk_5PMUpRpBhB4QYrwezEtk-tdZ" target="_blank" title='CV'>
+          <AiFillFilePdf size="3rem"/>
         </SocialIcons>
       </Div3>
     </Container>
