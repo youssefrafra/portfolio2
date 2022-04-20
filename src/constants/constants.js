@@ -4,7 +4,7 @@ export const projets = [
     description: `Image Classification de maladie des feuilles de pomme de terre
     en utilisant un modèle CNN avec tensorflow et keras`,
     image: "/images/villageplant.png",
-    tags: ["#Python", "#Tensorflow", "#Keras", "#Heroku"],
+    tags: ["#Python", "#Tensorflow", "#Keras", "#Heroku", "#ReactJs"],
     source: "https://github.com/youssefrafra/PlantVillge",
     // visit: "https://.herokuapp.com/",
     id: 1,
@@ -24,7 +24,7 @@ export const projets = [
     image: "/images/shiny.png",
     tags: ["#R", "#Rshiny", "#tidyverse", "#leaflet"],
     source: "https://github.com/youssefrafra/rshiny-covid19",
-    id: 0,
+    id: 3,
   },
   {
     title: "BeforeClass",
@@ -35,7 +35,7 @@ export const projets = [
     tags: ["#postgresql", "#Javascript", "#Rails", "#Heroku"],
     source: "https://github.com/youssefrafra/BeforeClass",
     visit: "https://beforeclass.herokuapp.com/",
-    id: 0,
+    id: 4,
   },
   // {
   //   title: "ParkIt",

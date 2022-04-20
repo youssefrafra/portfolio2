@@ -45,7 +45,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.codewars.com/users/youssefrafra" target="_blank" title='Codewars'>
           <AiFillCode size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://drive.google.com/uc?export=download&id=1uKCw5Nk_5PMUpRpBhB4QYrwezEtk-tdZ" target="_blank" title='CV'>
+        <SocialIcons href="https://drive.google.com/uc?export=download&id=1WiPQ5f8vAfBdR8FUimwgN8uC_g8qguPv" target="_blank" title='CV'>
           <AiFillFilePdf size="3rem"/>
         </SocialIcons>
       </Div3>
