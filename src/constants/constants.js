@@ -11,7 +11,7 @@ export const projets = [
   },
   {
     title: "Projet Mobile Ukraine",
-    description: `Étude sur les téléphones portables portable en Ukraine.`,
+    description: `Étude sur les téléphones portables en Ukraine.`,
     image: "/images/mobileukraine.png",
     tags: ["#RégressionLinéaire","#Python","#Pandas", "#Sklearn"],
     source: "https://colab.research.google.com/drive/1nOuCFAuDkTvWixC0zlwnjdiqgL8AbMzQ#scrollTo=DMa8nD3nXmoM",
@@ -28,7 +28,7 @@ export const projets = [
   },
   {
     title: "BeforeClass",
-    description: `Dans un groupe de 3, on a créé cette web app qui
+    description: `En équipe de 3, nous avons créé une web app qui
       vise ceux qui cherchent à découvrir le monde du développement
       web à partir de mini-jeux.`,
     image: "/images/1.png",
