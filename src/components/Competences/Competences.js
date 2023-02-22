@@ -1,5 +1,6 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { GiArtificialIntelligence } from "react-icons/gi";
 import {
   Section,
   SectionDivider,
@@ -81,6 +82,18 @@ const Competences = () => (
           <ListParagraph>
             Experience avec <br />
             des outils comme Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <GiArtificialIntelligence size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>AI</ListTitle>
+          <ListParagraph>
+            Experience avec <br />
+            Tensorflow et Scikit Learn
           </ListParagraph>
         </ListContainer>
       </ListItem>

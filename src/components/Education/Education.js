@@ -7,7 +7,7 @@ const data = [
   { date: 2012, text: 'Baccalauréat scientifique mention Bien'},
   { date: 2020, text: 'Licence de Maths à Lille 1'},
   { date: 2021, text: 'Le Wagon Bootcamp à Lille'},
-  { date: 2021, text: 'IA School de Paris, parcours Data Scientist'}
+  { date: 2023, text: 'IA School de Paris, parcours Data Scientist'}
 ];
 
 const Education = () => (

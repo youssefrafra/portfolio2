@@ -16,7 +16,8 @@ const Hero = (props) => (
           Mon Portfolio
         </SectionTitle>
         <SectionText>
-          Actuellement à la recherche d'un <strong>stage/stage alterné</strong> ou d'une <strong>alternance</strong> dans les postes suivants:
+          Actuellement à la recherche d'un <strong>stage alterné ou d'un stage de 6 mois 
+          à partir de Juin 2023</strong> dans les postes suivants:
           <strong> Data Scientist</strong>,{" "}
           <strong> Data Analyst</strong>,
           <strong> Data Engineer</strong>.

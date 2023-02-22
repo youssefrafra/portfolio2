@@ -15,6 +15,11 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <LinkListItem>
+        <Link href="#exp">
+          <NavLink>Expériences</NavLink>
+        </Link>
+      </LinkListItem>
+      <LinkListItem>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
@@ -45,7 +50,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.codewars.com/users/youssefrafra" target="_blank" title='Codewars'>
           <AiFillCode size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://drive.google.com/uc?export=download&id=1WiPQ5f8vAfBdR8FUimwgN8uC_g8qguPv" target="_blank" title='CV'>
+        <SocialIcons href="https://drive.google.com/uc?export=download&id=1wqPy2RP5pUI9WnCtm9wwOIgzao45OH32" target="_blank" title='CV'>
           <AiFillFilePdf size="3rem"/>
         </SocialIcons>
       </Div3>

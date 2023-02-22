@@ -1,3 +1,5 @@
+import Link from "next/dist/client/link";
+
 export const projets = [
   {
     title: "Plant Village Classification",
@@ -66,4 +68,32 @@ export const competences = [
   { percent: 40, color: "#23d400", name: "MongoDB" },
   { percent: 30, color: "#cd00d4", name: "C++" },
   { percent: 50, color: "#34eb86", name: "R" },
+];
+
+export const experiences = [
+  {
+    jobTitle: `Stage Assistant Ingénieur IA chez INDIENOV`,
+    jobDate: "06/2022 - 09/2022",
+    jobDesc: [
+      "Améliorer le logiciel d’étiquetage de données.",
+      "Analyser, traiter et stocker les données.",
+      "Formaliser les problèmes et proposer des solutions théoriques ou des modèles statistiques et/ou de Machine Learning.",
+      "Produire les Dashboards.",
+      "Réaliser un modèle ML/DL de reconnaissance d'activité humaine."],
+  },
+  {
+    jobTitle: "Search Engine Evaluator en Freelance chez Appen Inc.",
+    jobDate: "2018 - 2020",
+    jobDesc: [],
+  },
+  {
+    jobTitle: "Valet de chambre en interim chez Accor Hotels (Job étudiant)",
+    jobDate: "2017 - 2020",
+    jobDesc: [],
+  },
+  {
+    jobTitle: "Cours de soutien en Mathématiques pour des élèves de terminal (Job étudiant)",
+    jobDate: "2015 - 2017",
+    jobDesc: [],
+  }
 ];

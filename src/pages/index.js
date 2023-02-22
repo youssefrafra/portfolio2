@@ -8,6 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollButton from "../components/GoToTop/scrollToTop"
+import Experience from '../components/Experience/Experience';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
+      <Experience/>
       <Projects />
       <Technologies />
       <AboutMe />
