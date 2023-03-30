@@ -50,7 +50,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.codewars.com/users/youssefrafra" target="_blank" title='Codewars'>
           <AiFillCode size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://drive.google.com/uc?export=download&id=1wqPy2RP5pUI9WnCtm9wwOIgzao45OH32" target="_blank" title='CV'>
+        <SocialIcons href="https://drive.google.com/uc?export=download&id=1LThweWndjxplVkOpr-yffKH1slokd7QF" target="_blank" title='CV'>
           <AiFillFilePdf size="3rem"/>
         </SocialIcons>
       </Div3>
