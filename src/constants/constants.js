@@ -72,7 +72,7 @@ export const competences = [
 
 export const experiences = [
   {
-    jobTitle: `Stage Assistant Ingénieur IA chez INDIENOV`,
+    jobTitle: `Stage Assistant Ingénieur IA chez INDIENOV (4 Mois)`,
     jobDate: "06/2022 - 09/2022",
     jobDesc: [
       "Améliorer le logiciel d’étiquetage de données.",
@@ -86,14 +86,14 @@ export const experiences = [
     jobDate: "2018 - 2020",
     jobDesc: [],
   },
-  {
-    jobTitle: "Valet de chambre en interim chez Accor Hotels (Job étudiant)",
-    jobDate: "2017 - 2020",
-    jobDesc: [],
-  },
-  {
-    jobTitle: "Cours de soutien en Mathématiques pour des élèves de terminal (Job étudiant)",
-    jobDate: "2015 - 2017",
-    jobDesc: [],
-  }
+  // {
+  //   jobTitle: "Valet de chambre en interim chez Accor Hotels (Job étudiant)",
+  //   jobDate: "2017 - 2020",
+  //   jobDesc: [],
+  // },
+  // {
+  //   jobTitle: "Cours de soutien en Mathématiques pour des élèves de terminal (Job étudiant)",
+  //   jobDate: "2015 - 2017",
+  //   jobDesc: [],
+  // }
 ];
